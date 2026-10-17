@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment / secrets
+.env
+
+# Flask instance (database)
+instance/
+
+# ML models (regenerate with training scripts)
+models/*.joblib
+
+# Keep metadata files
+!models/*.json
+
+# Generated reports
+reports/*.pdf
+
+# pytest cache
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
